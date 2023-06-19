@@ -1,0 +1,36 @@
+/* =============
+    Buttons
+============= */
+
+
+.btn{
+	font-weight: 700;
+	color: var(--color-dark);
+	transition: all 0.3s;
+}
+.btn-primary{
+	background-color: var(--color-btn);
+	border-color: var(--color-btn);
+}
+.btn-secondary{
+	background-color: var(--color-light);
+	border-color: var(--color-light);
+}
+.btn:hover,
+.btn:active{
+	background-color: var(--color-primary);
+	border-color: var(--color-primary);
+	color: var(--color-dark);
+}
+.light_content .btn-primary{
+	background-color: var(--color-primary);
+	border-color: var(--color-dark);
+}
+.light_content .btn-primary:hover,
+.light_content .btn-primary:active{
+	background-color: var(--color-dark);
+	color: var(--color-primary);
+}
+.btn {
+    --bs-btn-padding-x: 1.75rem;
+}

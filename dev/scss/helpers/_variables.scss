@@ -1,0 +1,26 @@
+/* =============
+    Variables
+============= */
+:root {
+	--color-primary: #F4E134;
+	--color-secondary: #C16363;
+	--color-light: #ffffff;
+	--color-dark: #000000;
+	--color-btn: #D9D9D9;
+  
+	--fonts: 'Inter', sans-serif;
+	
+	--font-body: 16px;
+	--font-size-1: 120px;
+	--font-size-2: 60px;
+	--font-size-3: 40px;
+	--font-size-4: 24px;
+	--font-size-5: 20px;
+	--font-size-6: 18px;
+	--font-size-7: 14px;
+	--font-size-8: 10px;
+}
+
+.btn {
+    --bs-btn-padding-x: 1.75rem;
+}
